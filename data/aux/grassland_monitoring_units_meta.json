@@ -1,0 +1,29 @@
+ {
+   "Description": "Spatial units of monitoring of mowing state of grassland plots",
+
+   "Provider": {
+      "Name": "Maik Heistermann",
+      "Institution": "Uni Potsdam",
+      "Email": "heisterm@uni-potsdam.de",
+      "Comment": ""
+   },
+
+   "SpaceTimeCoverage": {
+      "StartDate": "2019-05-09",
+      "EndDate": "2019-07-15",
+      "RegionName": "Fendt experimental site",
+      "BBox": "Optional: meaningful specification of spatial bounding box in lat/lon"
+   },
+
+  "SpatialReferenceSystem": {
+      "Name": "WGS 84",
+      "EPSG": "4326"
+   },
+
+   "Remarks": "The state of the grassland plots was visually monitored every 2-4 days (for data, see grassland_monitoring.txt). The file grassland_monitoring_units.shp holds the location of the respective units. It is originally based on ownership information, but was refined according to the actual state of management units.
+   "
+}
+
+
+
+

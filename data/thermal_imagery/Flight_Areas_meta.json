@@ -1,0 +1,32 @@
+{
+   "Description": "UAV flight areas ",
+   
+   "Citation": {
+      "Info": "These files are part of the dataset published with the data-paper mentioned below.",
+      "cite-as": "Fersch, B., Francke, T., Heistermann, M., Schrön, M., Döpper, V., Jakobi, J. et. al (2020, subm.): A dense network of cosmic-ray neutron sensors for soil moisture observation in a pre-alpine catchment in Germany. Earth System Science  Data, submitted. DOI:"
+   },
+   
+   "Provider": {
+      "Name": "Veronika Döpper",
+      "Institution": "TU Berlin, Geoinformation in Environmental Planning",
+      "Email": "v.doepper@tu-berlin.de",
+      "Comment": ""
+   },
+   
+   "SpaceTimeCoverage": {
+      "RegionName": "Fendt"
+   },
+
+   "SpatialReferenceSystem": {
+      "Name": "WGS 84",
+      "EPSG": "4326" 
+   },
+
+   "Source": {
+      "Name": "Veronika Döpper",
+      "Institution": "TU Berlin, Geoinformation in Environmental Planning",
+	 "LinkToOriginalSource": ""
+   },
+
+   "Remarks": "CRNS ID informs about label of corresponding tif."
+}

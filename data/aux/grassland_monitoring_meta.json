@@ -1,0 +1,38 @@
+ {
+   "Description": "Monitoring of mowing state of grassland plots",
+
+   "Provider": {
+      "Name": "Till Francke",
+      "Institution": "Uni Potsdam",
+      "Email": "francke@uni-potsdam.de",
+      "Comment": ""
+   },
+
+   "Source": {
+      "Name": "[multiple]",
+      "Institution": "Uni Potsdam",
+      "LinkToOriginalSource": "Optional: link to the original data set or its documentation"
+   },
+
+   "SpaceTimeCoverage": {
+      "StartDate": "2019-05-09",
+      "EndDate": "2019-07-15",
+      "RegionName": "Fendt experimental site",
+      "BBox": "Optional: meaningful specification of spatial bounding box in lat/lon"
+   },
+
+   "Remarks": "The state of the grassland plots (for location see grassland_monitoring_units.shp) was visually monitored every 2-4 days.
+   The following categories were distinguished:
+code	explanation   
+c		cattle
+pm_h	partially mowed, hay in place
+pm_n	partially mowed, hay removed
+u		unmowed
+cm_h	completely mowed, hay in place
+cm_n	completely mowed, hay removed
+   "
+}
+
+
+
+

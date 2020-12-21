@@ -1,0 +1,153 @@
+{
+   "Description": "Time series recorded by the mobile (i.e. roving) CRNS sensor, UFZ-rover, during Cosmic Sense JFC-1",
+
+   "Citation": {
+      "Info": "These files are part of the dataset published with the data-paper mentioned below.",
+      "cite-as": "Fersch, B., Francke, T., Heistermann, M., Schrön, M., Döpper, V., Jakobi, J. et. al (2020, subm.): A dense network of cosmic-ray neutron sensors for soil moisture observation in a pre-alpine catchment in Germany. Earth System Science  Data, submitted. DOI:"
+   },
+
+   "Provider": {
+      "Name": "Martin Schrön",
+      "Institution": "UFZ - Helmholtz Centre for Environmental Research GmbH, Leipzig, Germany",
+      "Email": "martin.schroen@ufz.de",
+      "Comment": ""
+   },
+
+   "SpaceTimeCoverage": {
+      "StartDate": "2019-05-13",
+      "EndDate": "2019-06-27",
+      "RegionName": "Upper Rott Catchment around Fendt",
+      "BBox": "left: 11.05, right: 11.08, bottom: 47.81, top: 47.84"
+   },
+
+   "Units": "-",
+
+   "TemporalReferenceSystem": {
+      "TimeZone": "UTC",
+      "IntervalLength": "10 seconds",
+      "TimestampAtEndOfInterval": "True"
+	  "IntervalAggregation": "sum"
+   },
+
+   "Remarks": "The recorded times-series data for each campaign day are contained in the files `rover_UFZ-{day}.txt`. The columns of these data files, i.e. the recorded variables, are documented in the following:
+   # datetime
+   Date and time string in ISO 8601 format, marking the end of integration interval, in UTC
+
+   # RecordNum
+   Record ID, starting from 1 with every restart of the logger, unitless
+   
+   # ClkTicks
+   Record clicks in seconds between two data recordings
+
+   # PTB110_mb
+   Internal barometric pressure (measured on logger circuit board/ in the logger box), usually highest precision
+   
+   # P4_mb
+   Internal barometric pressure (measured on logger circuit board/ in the logger box)
+   
+   # P1_mb
+   Internal barometric pressure (measured on logger circuit board/ in the logger box)
+
+   # Vbat
+   Battery voltage, in volts
+   
+   # T1_C
+   Air temperature (measured on logger circuit board/ in the logger box), in deg Celsius
+
+   # RH1
+   Relative humidity (measured on logger circuit board/ in the logger box), in percent
+
+   # N1Cts
+   Number of epithermal neutron counts (moderated counter), unitless
+   
+   # N2Cts
+   Number of epithermal neutron counts (moderated counter), unitless
+
+   # N1ETsec
+   Integration interval for N1Cts, in seconds
+   
+   # N2ETsec
+   Integration interval for N2Cts, in seconds
+
+   # N1T
+   Air temperature in tube 1, in degree Celsius
+
+   # N1RH
+   Relative humidity in tube 1, in percent
+
+   # N2T
+   Air temperature in tube 2, in degree Celsius
+
+   # N2RH
+   Relative humidity in tube 2, in percent
+
+   # T_CS215
+   External temperature, in degree Celsius, the sensor was usually mounted outside of the car
+
+   # RH_CS215
+   External relative humidity, in percent, the sensor was usually mounted outside of the car
+
+   # GpsUTC
+   GPS time in UTC
+   
+   # LatDec
+   Latitude in decimal degree
+   
+   # LongDec
+   Longitude in decimal degree
+   
+   # Alt
+   GPS Altitude in meter
+   
+   # Qual
+   GPS Quality, unitless
+   
+   # NumSats
+   Number of GPS satellites
+   
+   # HDOP
+   GPS horizontal dilution of precision
+   
+   # Speed_kmh
+   GPS measured speed in km/h
+   
+   # COG
+   GPS course over ground in degree
+   
+   # SpeedQuality
+   GPS speed quality flag
+   
+   # strDate
+   GPS Date in ddmmyy
+   
+   # N
+   total neutron counts in cph
+   
+   # NM
+   Incoming radiation flux from JUNG neutron monitor in cps
+   
+   # ah
+   Absolute humidity calculated from the externally mounted sensor
+   
+   # correct_h
+   Correction factor for humidity using h_ref=0
+   
+   # correct_p
+   Correction factor for air pressure using p_ref=1013.25 and L=136
+   
+   # correct_inc
+   Correction factor for incoming radiation using I_ref=150
+   
+   # N_smooth
+   Corrected neutron counts smoothed across 6 measurements (1 minute rolling mean)
+   
+   # N_smooth_std
+   Standard deviation of smoothed counts
+   
+   # moisture
+   Calculated soil moisture (in m^3/m^3) using SOC=0.02, lw=0.02, bd=1, and N0=9447
+   
+   # moisture_%
+   Moisture converted to percent
+   "
+}

@@ -1,0 +1,43 @@
+time	work	sensor	comment
+2019-06-27T09:04:00Z calibration	 9	 
+2019-06-27T09:26:00Z repositioning...	 NA	
+2019-06-27T09:28:00Z calibration	 15	 
+2019-06-27T09:45:00Z repositioning...	 NA	
+2019-06-27T09:50:00Z calibration	 13	 
+2019-06-27T10:09:00Z repositioning...	 NA	
+2019-06-27T10:24:00Z calibration	 23	 
+2019-06-27T10:42:00Z repositioning...	 NA	
+2019-06-27T11:00:00Z calibration	 17	 
+2019-06-27T11:19:00Z repositioning...	 NA	
+2019-06-27T11:26:00Z calibration	 18	 
+2019-06-27T11:42:00Z repositioning...	 NA	
+2019-06-27T11:53:00Z calibration	 8	 
+2019-06-27T12:11:00Z repositioning...	 NA	
+2019-06-27T12:20:00Z calibration	 3	 tablet restart 
+2019-06-27T12:41:00Z repositioning...	 NA	
+2019-06-27T12:44:00Z calibration	 25	 
+2019-06-27T13:02:00Z repositioning...	 NA	
+2019-06-27T13:12:00Z calibration	 24	 people around 13:24 
+2019-06-27T13:32:00Z repositioning...	 NA	
+2019-06-27T13:38:00Z calibration	 12	 Christian maintains profile 
+2019-06-27T14:12:00Z repositioning...	 NA	
+2019-06-27T14:16:00Z calibration	 5	 
+2019-06-27T14:35:00Z repositioning...	 NA	
+2019-06-27T14:41:00Z calibration	 7	 
+2019-06-27T14:57:00Z repositioning...	 NA	
+2019-06-27T15:09:00Z calibration	 11	 uncertain start
+2019-06-27T15:29:00Z repositioning...	 NA	
+2019-06-27T15:36:00Z calibration	 2	 
+2019-06-27T15:55:00Z repositioning...	 NA	
+2019-06-27T16:07:00Z calibration	 4	 
+2019-06-27T16:25:00Z repositioning...	 NA	
+2019-06-27T16:44:00Z calibration	 6	 
+2019-06-27T17:19:00Z repositioning...	 NA	
+2019-06-27T18:17:00Z calibration	 16	 
+2019-06-27T18:37:00Z repositioning...	 NA	
+2019-06-27T18:48:00Z calibration	 19	 
+2019-06-27T19:07:00Z repositioning...	 NA	
+2019-06-27T19:19:00Z calibration	 14	 
+2019-06-27T19:41:00Z repositioning...	 NA	
+2019-06-27T19:50:00Z calibration	 10	 
+2019-06-27T20:12:00Z repositioning...	 NA	

@@ -1,0 +1,24 @@
+ {
+   "Description": "Data of forest surveys, single tree measurements",
+
+   "Citation": {
+      "Info": "These files are part of the dataset published with the data-paper mentioned below.",
+      "cite-as": "Fersch, B., Francke, T., Heistermann, M., Schrön, M., Döpper, V., Jakobi, J. et. al (2020, subm.): A dense network of cosmic-ray neutron sensors for soil moisture observation in a pre-alpine catchment in Germany. Earth System Science  Data, submitted. DOI:"
+   },
+   
+   "Provider": {
+      "Name": "Till Francke",
+      "Institution": "Uni Potsdam",
+      "Email": "francke@uni-potsdam.de",
+      "Comment": ""
+   },
+
+   "SpaceTimeCoverage": {
+      "StartDate": "2019-06-06",
+      "EndDate": "2019-09-01",
+      "RegionName": "Upper Rott Catchment around Fendt",
+      "BBox": "left: 11.050559301, right: 11.075705129, bottom: 47.818934833, top: 47.837294444"
+	  },
+
+   "Remarks": "Forest survey, single tree measurements, similar to Brovkina et al., 2017. Plot locations in forest_plots.shp. Measurements performed by Irina Stockmann, Sandra Szulc-Seyfried and Till Francke"
+}

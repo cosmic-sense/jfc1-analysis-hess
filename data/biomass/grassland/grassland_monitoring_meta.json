@@ -1,0 +1,41 @@
+ {
+   "Description": "Monitoring of mowing state of grassland plots",
+
+   "Citation": {
+      "Info": "These files are part of the dataset published with the data-paper mentioned below.",
+      "cite-as": "Fersch, B., Francke, T., Heistermann, M., Schrön, M., Döpper, V., Jakobi, J. et. al (2020, subm.): A dense network of cosmic-ray neutron sensors for soil moisture observation in a pre-alpine catchment in Germany. Earth System Science  Data, submitted. DOI:"
+   },
+
+   "Provider": {
+      "Name": "Till Francke",
+      "Institution": "Uni Potsdam",
+      "Email": "francke@uni-potsdam.de",
+      "Comment": ""
+   },
+
+   "Source": {
+      "Name": "[multiple]",
+      "Institution": "University of Potsdam",
+   },
+
+   "SpaceTimeCoverage": {
+      "StartDate": "2019-05-09",
+      "EndDate": "2019-07-15",
+      "RegionName": "Fendt experimental site",
+   },
+
+   "Remarks": "The state of the grassland plots (for location see grassland_monitoring_units.shp) was visually monitored every 2-4 days.
+   The following categories were distinguished:
+code	explanation   
+c		cattle
+pm_h	partially mowed, hay in place
+pm_n	partially mowed, hay removed
+u		unmowed
+cm_h	completely mowed, hay in place
+cm_n	completely mowed, hay removed
+   "
+}
+
+
+
+

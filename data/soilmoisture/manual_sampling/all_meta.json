@@ -1,0 +1,43 @@
+ {
+   "Description": "Results of soil campaign in Fendt, JFC-1, June 2018: locations (locations.txt), moisture, bulk density (theta_grav_BD_cylinder.txt). Soil Organic Matter and Lattice Water (OM_LW_composite.txt) for composite samples. FDR-measurements and their conversion to soil moisture (voltage_epsilon_theta_FDR.txt)."
+
+  "Citation": {
+      "Info": "These files are part of the dataset published with the data-paper mentioned below.",
+      "cite-as": "Fersch, B., Francke, T., Heistermann, M., Schrön, M., Döpper, V., Jakobi, J. et. al (2020, subm.): A dense network of cosmic-ray neutron sensors for soil moisture observation in a pre-alpine catchment in Germany. Earth System Science  Data, submitted. DOI:"
+   },
+
+   "Provider": {
+      "Name": "Till Francke",
+      "Institution": "Uni Potsdam",
+      "Email": "francke@uni-potsdam.de",
+      "Comment": ""
+   },
+
+   "SpaceTimeCoverage": {
+      "StartDate": "2019-06-25",
+      "EndDate": "2019-06-26",
+      "RegionName": "Upper Rott Catchment around Fendt",
+      "BBox": "left: 11.050559301, right: 11.075705129, bottom: 47.818934833, top: 47.837294444"
+   },
+
+   "Units": "see column headers",
+
+   "SpatialReferenceSystem": {
+      "Name": "WGS 84",
+      "EPSG": "4326"
+   },
+   
+   "TemporalReferenceSystem": {
+      "TimeZone": "UTC",
+      "IntervalLength": "0",
+      "TimestampAtEndOfInterval": "False"
+	  "IntervalAggregation": "instantaneous"
+   },
+
+   "Remarks": "Primary lab analysis (theta_grav_BD_cylinder.txt) conducted at KIT GAP, c/o Ralf Kiese.
+				Secondary analysis for organic matter and lattice water using composite samples  (OM_LW_texture_composite.txt) conducted at University of Potsdam, c/o Lena Scheiffele ,Yannick Heidrich, Sandra Szulc-Seyfried, Heide Kraudelt. 
+				Particle size classes according to WRB (coarse > 2 mm, sand > 0.063 mm, silt > 0.002 mm, clay < 0.002 mm).
+				FDR-measurements converted to soil moisture (voltage_epsilon_theta_FDR.txt) using process_fdr.R (adjusted equation by Zhao et al. 2016 using FDR2soilmoisture-package) by Till Francke. Sensor locations have been surveyed using dGPS (locations.txt).
+				All data disassembled from theta_sheet_converted2_converted.xlsx."
+}
+ 

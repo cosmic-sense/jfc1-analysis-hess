@@ -1,0 +1,105 @@
+{
+   "Description": "Time series recorded by the stationary (i.e. non-roving) CRNS sensor during Cosmic Sense JFC-1",
+
+   "Citation": {
+      "Info": "These files are part of the dataset published with the data-paper mentioned below.",
+      "cite-as": "Fersch, B., Francke, T., Heistermann, M., Schrön, M., Döpper, V., Jakobi, J. et. al (2020, subm.): A dense network of cosmic-ray neutron sensors for soil moisture observation in a pre-alpine catchment in Germany. Earth System Science  Data, submitted. DOI:"
+   },
+
+   "Provider": {
+      "Name": "Maik Heistermann",
+      "Institution": "University of Potsdam, Environmental Sciences & Geography",
+      "Email": "maik.heistermann@uni-potsdam.de",
+      "Comment": ""
+   },
+
+   "SpaceTimeCoverage": {
+      "StartDate": "2019-05-01",
+      "EndDate": "2019-07-23",
+      "RegionName": "Upper Rott Catchment around Fendt",
+      "BBox": "left: 11.050559301, right: 11.075705129, bottom: 47.818934833, top: 47.837294444"
+   },
+
+   "Source": {
+      "Name": "",
+      "Institution": "University of Potsdam"
+   },
+
+   "Units": "-",
+
+   "TemporalReferenceSystem": {
+      "TimeZone": "UTC",
+      "IntervalLength": "20 minutes",
+      "TimestampAtEndOfInterval": "True"
+	  "IntervalAggregation": "sum or average"
+   },
+
+   "Remarks": "Each CRNS sensor unit has an ID from 1 to 25. The attributes of each CRNS sensor unit are provided in the file `crns_attributes.txt` in this directory. Sensor locations have been surveyed using dGPS. The recorded times-series data are contained in the files `crns_data_{ID}.txt`. The columns of these data files, i.e. the recorded variables, are documented in the following (please note that not all column names are contained in all data files):
+   # rec_id
+   Record ID, starting from 1 with every restart of the logger, unitless
+
+   # datetime
+   Date and time string in ISO 8601 format, marking the end of integration interval, in UTC
+
+   # press1
+   Internal barometric pressure (measured on logger circuit board/ in the logger box), in hPa, usually logged as 'P1_mb' for Quaesta/Hydroinnnova loggers
+
+   # temp1
+   Air temperature (measured on logger circuit board/ in the logger box), in deg Celsius, usually logged as 'T1_C' for Quaesta/Hydroinnnova loggers
+
+   # relhum1
+   Relative humidity (measured on logger circuit board/ in the logger box), in percent, usually logged as 'RH1' for Quaesta/Hydroinnnova loggers
+
+   # volt
+   Battery voltage, in volts
+
+   # counts1
+   Number of epithermal neutron counts (moderated counter), unitless, usually logged as 'N1Cts' for Quaesta/Hydroinnnova loggers
+
+   # nsecs1
+   Integration interval for counts1, in seconds, usually logged as 'N1ET_sec' for Quaesta/Hydroinnnova loggers
+
+   # counts2
+   Number of thermal neutron counts (bare counter), unitless, usually logged as 'N2Cts' for Quaesta/Hydroinnnova loggers
+   Exceptions for probe #4 and #20: epithermal neutron counts (second moderated counter)
+
+   # nsecs2
+   Integration interval for counts1, in seconds, usually logged as 'N2ET_sec' for Quaesta/Hydroinnnova loggers
+
+   # press4
+   Additional external sensor for barometric pressure, in hPa, usually logged as 'P4_mb' for Quaesta/Hydroinnnova loggers
+
+   # temp_ext
+   External temperature, in degree Celsius, usually logged as 'T_CS215' for Quaesta/Hydroinnnova loggers
+
+   # relhum_ext
+   External relative humidity, in percent, usually logged as 'RH_CS215' for Quaesta/Hydroinnnova loggers
+
+   # N1T_C
+   Air temperature in tube 1, in degree Celsius
+
+   # N1RH
+   Relative humidity in tube 1, in percent
+
+   # N2T_C
+   Air temperature in tube 2, in degree Celsius
+
+   # N2RH
+   Relative humidity in tube 2, in percent
+
+   # Pv2.5_1
+   Additional sensor for barometric pressure, in hPa, only for CRNS sensor #20
+
+   # MetOne092_1
+   Additional sensor for barometric pressure, in hPa, only for CRNS sensor #4
+
+   # hv
+   High voltage generated in the ncatcher module, in volts, only for StX-140-5-15 units (#9-#13)
+
+   # temp_ncat
+   Temperature in the ncatcher module, in degree Celsius, only for StX-140-5-15 units (#9-#13)
+
+   # moder_cph_filt
+   Computed (not logged!) total epithermal neutron count rate, in counts per hour (cph); for all probes except #4 and #20, this variable was computed as 3600 * counts1 / nsecs1 because mostly, counts1 refers to epithermal and counts2 to thermal neutrons - except for CRNS #4 and #20 which have two counters for epithermal neutrons so that the total epithermal neutron count rate correspnds to 3600 * (counts1 + counts2) / nsecs1; please note that this variable is rather an add-on to the original dataset, as it was not recorded by the sensors, but computed in post-processing. In order to make usage easier, we already marked count rates as 'nan' which are -- based on subjective judgement -- considered implausible, corrupt, or uncertain. This filtering process is based on several criteria: (1) marking obvious outliers which are identified by minimum and maximum plausible thresholds of count rates which again depend on detector sensitivity, and by marking count rates outside a moving window median buffer window; (2) marking count rates that are based on interval lengths that are equal or less than half of the nominal/intended length of 1200 seconds; (3) marking coherent time periods of count rates which exhibit obviously implausible and inconsistent behaviour - that particularly applies to the CRNS unit #3 which showed, on few occasions, implausible diurnal variations, and to units #9-#13 (the experimental sensor models StX-140-5-15) for which we marked extensive periods of inconsistent and instationary behaviour.
+   "
+}

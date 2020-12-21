@@ -1,0 +1,34 @@
+ {
+   "Description": "Spatial units of monitoring of mowing state of grassland plots",
+
+   "Citation": {
+      "Info": "These files are part of the dataset published with the data-paper mentioned below.",
+      "cite-as": "Fersch, B., Francke, T., Heistermann, M., Schrön, M., Döpper, V., Jakobi, J. et. al (2020, subm.): A dense network of cosmic-ray neutron sensors for soil moisture observation in a pre-alpine catchment in Germany. Earth System Science  Data, submitted. DOI:"
+   },
+
+   "Provider": {
+      "Name": "Maik Heistermann",
+      "Institution": "Uni Potsdam",
+      "Email": "heisterm@uni-potsdam.de",
+      "Comment": ""
+   },
+
+   "SpaceTimeCoverage": {
+      "StartDate": "2019-05-09",
+      "EndDate": "2019-07-15",
+      "RegionName": "Upper Rott Catchment around Fendt",
+      "BBox": "left: 11.050559301, right: 11.075705129, bottom: 47.818934833, top: 47.837294444"
+   },
+
+  "SpatialReferenceSystem": {
+      "Name": "WGS 84",
+      "EPSG": "4326"
+   },
+
+   "Remarks": "The state of the grassland plots was visually monitored every 2-4 days (for data, see grassland_monitoring.csv). The file grassland_monitoring_units.shp holds the location of the respective units. It is originally based on ownership information, but was refined according to the actual state of management units.
+   "
+}
+
+
+
+
