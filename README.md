@@ -8,4 +8,4 @@ The jupyter notebook `jfc1-analsis.ipynb` contains the analysis code as well as 
 
 ## Environment
 
-The main dependencies required to run the notebook are `numpy`, `scipy`, `matplotlib`, `pandas`, `wradlib`, and the `cosmicsense` package. We recommend `conda` for dependency management. 
+The main dependencies required to run the notebook are `numpy`, `scipy`, `matplotlib`, `pandas`, `wradlib`, and the [cosmicsense](https://github.com/heistermann/cosmicsense) package. We recommend `conda` for dependency management. 
